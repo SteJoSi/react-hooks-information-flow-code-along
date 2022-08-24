@@ -2,6 +2,7 @@ import React from "react";
 import { getRandomColor } from "./randomColorGenerator.js";
 
 function Child({ onChangeColor }) {
+  console.log('color', onChangeColor)
   return <div className="child" style={{ backgroundColor: "#FFF" }} />;
 }
 
